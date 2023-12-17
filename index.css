@@ -49,7 +49,7 @@ nav{
     color: white;
     border-radius: 10px;
     padding: 2rem;
-    height: 70vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -104,12 +104,34 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+    
 }
-.bottom input{
+.bottom #progressbar{
     width: 90%;
     max-width: 1400px;
     margin: 0px auto;
     
+}
+.bottom-info{
+    width: 90%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-info .song-info{
+    visibility: hidden;
+    height: 5vh;
+    width: 200px;
+    color: white;
+    transform: translateY(-40%);
+}
+.song-info img{
+    height: 100%;
+    width: 100%;
+}
+.song-info h1{
+    text-align: center;
 }
 .control-icon img{
     background-color: white;
@@ -120,4 +142,21 @@ nav{
 }
 .control-icon #prev{
     transform: rotate(-180deg)
+}
+.sound-box {
+    width: 30%;
+    /* outline: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sound-box #soundrange{
+    width: 70%;
+    margin-left: 1rem;
+}
+.sound-box img{
+    background-color: white;
+    width: 40px;
+    border-radius: 50%;
 }
